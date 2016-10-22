@@ -1,0 +1,31 @@
+Command line:
+   test_bench_4_stage_pipeline_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49772
+
+Tue Apr 14 16:23:13 2015
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 352.571 Meg
+
+ Total Signals          : 157
+ Total Nets             : 528
+ Total Signal Drivers   : 73
+ Total Blocks           : 12
+ Total Primitive Blocks : 10
+ Total Processes        : 86
+ Total Traceable Variables  : 84
+ Total Scalar Nets and Variables : 25698
+Total Line Count : 281
+Total Line Count : 281
+Total Line Count : 281
+
+ Total Simulation Time: 0.515625 sec
+
+ Current Memory Usage: 667.161 Meg
+
+Tue Apr 14 16:24:01 2015
+

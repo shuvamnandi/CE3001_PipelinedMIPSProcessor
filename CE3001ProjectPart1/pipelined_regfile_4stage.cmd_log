@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/pipelined_regfile_4stage.xst" -ofn "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/pipelined_regfile_4stage.syr" 

@@ -1,0 +1,16 @@
+0000 8480 //Load base address of array b in R4
+0001 8520 //Load base address of array a in R5
+0002 0777 //NOP
+0003 0777 //NOP
+0004 0654 //Add a[i-6] and b[i] into R6
+0005 0777 //NOP
+0006 0777 //NOP
+0007 9600 //Store R6 into data memory a[i]
+0008 0003 //Increase counter variable i to access a[i]
+0009 0223 //Increase counter variable i-6 to access a[i-6]
+000a 0883 //Increase counter variable i to access b[i]
+000b a012  //Branch if counter variable reaches end of array a
+000c 0777 //NOP
+000d 0777 //NOP
+000e b000 //Jump to the LOOP beginning
+000f 0777 //NOP

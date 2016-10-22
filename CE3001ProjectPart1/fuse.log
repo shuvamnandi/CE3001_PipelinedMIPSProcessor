@@ -1,0 +1,37 @@
+Running: E:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/test_bench_4_stage_pipeline_isim_beh.exe -prj C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/test_bench_4_stage_pipeline_beh.prj work.test_bench_4_stage_pipeline work.glbl 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/regfile.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/PC.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/memory.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/ID_EXE_stage.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/EXE_DM_stage.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/DM_WB_stage.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/data_memory.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/control.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/alu.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/pipelined_4_stage.v" into library work
+Analyzing Verilog file "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/test_bench_4_stage_pipeline.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/test_bench_4_stage_pipeline.v" Line 34: Port res is not connected to this instance
+Completed static elaboration
+Compiling module PC1
+Compiling module instruction_memory
+Compiling module data_memory
+Compiling module control
+Compiling module regfile
+Compiling module ID_EXE_stage
+Compiling module alu
+Compiling module EXE_DM_stage
+Compiling module DM_WB_stage
+Compiling module pipelined_regfile_4stage
+Compiling module test_bench_4_stage_pipeline
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/shuvamnandi/XilinxProjects/CE3001ProjectPart1/test_bench_4_stage_pipeline_isim_beh.exe
+Fuse Memory Usage: 26384 KB
+Fuse CPU Usage: 1858 ms
